@@ -11,6 +11,7 @@ const server = async (req, res) => {
 
     if(req.url == "/books" && req.method == "GET"){
         const data = await Books.read()
+        const finalData = data.sort((a,b) => a.name.localeCompare(b.name))
         res.writeHead(200)
         return res.end(JSON.stringify(data))
     }
