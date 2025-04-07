@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Angels and Demons",
+    "author": "Den Braun",
+    "yearPublished": "2008",
+    "genre": "Fiction"
+  },
+  {
+    "id": 3,
+    "name": "1984",
+    "author": "George Orwell",
+    "yearPublished": "2012",
+    "genre": "Fiction and History"
+  },
+  {
+    "id": 4,
+    "name": "Da Vinci Code",
+    "author": "Den Braun",
+    "publishedYear": "2012",
+    "genre": "Fiction"
+  }
+]
